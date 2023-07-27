@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+
+} 
+ 
+/* header*/
+img{
+    width: 30px;
+}
+.bold{
+    font-size: 30px;
+}
+ 
+header {
+display: flex;
+ padding: 30px;
+ justify-content: space-around;
+ align-items: center;
+width: 100%; 
+     
+
+    
+}
+#click{
+    padding: 0 10px 0 10px;
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+}
+
+ .grp1{
+    display: flex;
+    align-items: center;
+     
+ }
+ .grp2{
+    display: flex;
+    align-items: center;
+     
+     
+ }
+
+a{
+    display: flex;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+/* section */
+ .main{
+    display: flex;
+    justify-content: center;
+flex-direction: column;
+align-items: center;
+ }
+ section{
+    display: flex;
+    justify-content: center;
+    padding: 40px 50px;
+
+ }
+#btn{
+padding: 0 5px 8px 5px;
+border: 2px solid black;
+border-radius: 10px;
+width: 20%;
+background-color:#68e5a2 ;
+}
+section div img{
+width: 13px;
+padding: 10px 0 0 0 ;
+}
+ h1{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 60px;
+
+ }
+ section div p{
+    padding: 10px 300px 30px 300px;
+    display: flex;
+    width: 40%;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 16px;
+
+ }
+ .bg{
+    width: 60%;
+    padding: 0%;
+    
+ }
+section div h4{
+    color: darkslategray;
+}
+
+ 
+.icons{
+padding:  20px 150px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+ }
+ main{
+    padding: 60px 200px 0 200px;
+    display: flex;
+    flex-direction: column;
+   
+
+ }
+#btn2{
+padding: 0 5px 8px 5px;
+border: 2px solid black;
+border-radius: 10px;
+width: 20%;
+background-color:
+#f1b280;
+ }
+main button img{
+width: 13px;
+padding: 10px 0 0 0 ;
+ }
+main p{
+    width: 50%;
+    padding: 0 0 40px 0;
+}
+main h2{
+display: flex;
+font-size: 40px;
+ padding: 0 0 10px 0;
+}
+  
+.flexbox{
+ display: grid;
+ grid-gap: 10px;
+ grid-template-columns: 250px 250px 1fr;
+ padding: 0 0 0 200px;
+ place-items: center left;
+
+}
+ .eight{
+    width: 90%;
+ }
+ .ten{
+    justify-items: center;
+    width: 200px;
+ }
+ .nine{
+    justify-items: center;
+    width: 200px;
+ }
+ 
+
+  strong{
+
+    font-size: 20px;
+    padding: 0 0 30px 0;
+  }
+  .one{
+    
+    width: 80%;
+    text-align: left;
+    padding: 0 150px 50px 150px;
+  }
+  .border{
+    padding:50px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #f1b280;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h4 img{
+    width: 15px;
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 80%;
+   
+    padding:  0 200px 0 200px;
+  } 
+section p{
+    width: 50%;
+    padding: 0 0 40px 0;
+}
+section button img{
+width: 13px;
+padding: 10px 0 0 0 ;
+}
+section h2{
+    display: flex;
+    font-size: 40px;
+     padding: 0 0 10px 0;
+    }
+    #btn3{
+        padding: 0 5px 8px 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 20%;
+        background-color:
+        #68e5a2;
+    }
+    .flex{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 250px 250px ;
+        padding: 30px 0 0 200px;
+        place-items: center left;
+       }
+       .five{
+        width: 90%;
+     }
+     .seven{
+        justify-items: center;
+        width: 200px;
+     }
+     .six{
+        justify-items: center;
+    width: 200px;
+     }
+     .four{
+        display: flex;
+         
+        width: 80%;
+        text-align:left;
+        padding: 0 150px 50px 150px;
+     }
+     .three{
+        padding:50px;
+        width: 100%;
+        border: 2px solid black;
+        border-radius: 30px;
+        background-color: #68e5a2;
+    }
+    .grow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .split{
+        padding:  0 200px  0 200px;
+      }
+      .boxes {
+        display: flex;
+        padding:   80px;
+        flex-direction: row;
+        align-items: center;
+         
+        border: 2px solid black;
+        border-radius: 30px;
+      }
+      .boxes > div > p {
+        margin: 0;
+         
+        padding: 0;
+        text-align: left;
+        display: block;
+        width: fit-content;
+      }
+      .boxes > div > h2 {
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: fit-content;
+        
+      }
+      
+      .box1 {
+        display: flex;
+        flex-direction: column;
+      
+        padding: 0;
+        margin: 0;
+        flex: 2;
+      }
+      
+      .box2 {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .box3 {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .box4 {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+      }
+      .image > div > img{
+
+width: 50px;
+      }
+      .image > .img1 > img{
+        width: 80px;
+      }
+      .image > .img3 > img{
+        width: 60px;
+      }
+      .image > div > h3{
+        padding: 20px 0 10px 0;
+        width: fit-content;
+      }
+      .image > div > p{
+        width: 250px;
+         
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+      
+      .image{
+        display: flex;
+        
+        padding: 100px;
+        flex-direction: row;
+        gap: 20px;
+        
+    }
+      
+      .img1{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 30px;
+        border: 2px solid black;
+        border-radius: 20px;
+      }  
+      .img2{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 30px;
+        border: 2px solid black;
+        border-radius: 20px;
+      }
+      .img3{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 30px;
+        border: 2px solid black;
+        border-radius: 20px;
+      }
+      .star12{
+        padding: 0 150px 60px 150px;
+      }
+      .star{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 50px;
+         padding: 30px;
+      }
+      .star1{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        
+        justify-content: center;
+        align-items: center;
+
+      }
+      .star2{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+
+      }
+      #btn4{
+        padding: 0 40px 8px 40px;
+        border: 2px solid black;
+        border-radius: 10px;
+        
+        background-color:#fae053;
+         }
+         .star2 > h5{
+          padding: 10px;
+        }
+         .foot{
+          background-color: black;
+          color: whitesmoke;
+          display: grid;
+          padding: 30px;
+          max-height: 800px;
+           grid-gap: 10px;
+           grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+           grid-template-rows: 1fr 1fr;
+           place-items:start left;
+          }
+          .foot > div >h4{
+            padding: 10px;
+          }
+          .foot > div > p{
+            padding: 0 1px 3px 10px;
+          }
+          .grid1 img{
+            width: 18px;
+          }
+          .grid1{
+            grid-row: 1 / span 2;
+          }
+          .grid8{
+            grid-column: -1/span -3;
+          }
+          .last{
+            padding:  0 150px 50px 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+             
+            align-items: center;
+            background-color: black;
+          }
+          .flex1{
+            display: flex;
+            flex-direction: column;
+             
+          }
+          .flex2{
+            display: flex;
+            flex-direction: column;
+            al
+          }
+          .flex3{
+            display: flex;
+            flex-direction: column;
+          }
+          .flex2 > img{
+            width: 150px;
+            padding: 0;
+          }
+           
+          
+          #enter{
+            width: 250px;
+            height: 30px;
+            border: 10px solid white;
+          }
