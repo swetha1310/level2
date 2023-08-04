@@ -250,14 +250,15 @@ section h2{
         justify-content: space-between;
       }
       .split{
-        padding:  0 200px  0 200px;
+        padding:  0 100px  0 100px;
+        width: 100%;
       }
       .boxes {
         display: flex;
-        padding:   80px;
+        padding:    80px 50px;
         flex-direction: row;
         align-items: center;
-         
+        
         border: 2px solid black;
         border-radius: 30px;
       }
@@ -291,6 +292,7 @@ section h2{
         display: flex;
         flex-direction: column;
         flex: 1;
+        padding: 0;
         justify-content: center;
         align-items: center;
       }
@@ -299,6 +301,7 @@ section h2{
         display: flex;
         flex-direction: column;
         flex: 1;
+        padding: 0;
         justify-content: center;
         align-items: center;
       }
@@ -307,6 +310,7 @@ section h2{
         display: flex;
         flex-direction: column;
         flex: 1;
+        padding: 0;
         justify-content: center;
         align-items: center;
       }
@@ -334,8 +338,8 @@ width: 50px;
       
       .image{
         display: flex;
-        
-        padding: 100px;
+        margin: 0;
+        padding:  50px 180px;
         flex-direction: row;
         gap: 20px;
         
